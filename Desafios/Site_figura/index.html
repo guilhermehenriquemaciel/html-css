@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Paisagem</title>
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>Você esta vendo a imagem completa? experimente abrir a imagem e curta o momento  </p>
+    <picture>
+        <source media="(max-width:550px )" srcset="imagens/pequenohomem.jpg" type="image/jpg">
+        <source media="(max-width:850px )" srcset="imagens/mediohomem.jpg" type="image/jpg">
+        <img src="imagens/grandehomem.jpg" alt="imagem flexivel">
+    </picture>
+
+
+</body>
+</html>

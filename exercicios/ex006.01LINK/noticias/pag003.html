@@ -1,0 +1,115 @@
+<!---
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 03 de esportes</title>
+</head>
+<body>
+    <h1> Bem vindo a 3° pagina, tudo sobre esporte</h1>
+    <p>tudo vc acompanha aqui</p>
+    <p><a href="../pag002.html">segunda</a> pagina</p>
+    <p> <a href="../index.html">primeira </a>pagina</p>
+
+</body>
+</html>
+
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tags HTML</title>
+    <style>
+       ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 10px;
+            height: 10px;
+            background-color: black;
+            border-radius: 50%;
+        }
+
+        .tooltip {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            margin-top: 5px;
+            padding: 5px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+            white-space: nowrap;
+            font-size: 0.9em;
+            z-index: 1;
+        }
+
+        li:hover .tooltip {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Tags HTML</h1>
+    <p> Em HTML5 podemos inserir os elementos da lista a seguir. passe sobre os termos para descobrir qual a tag deverá utilizar em cada clase .</p>
+    <ol>
+    <ul type="--disc">
+        <li>
+            Cabeçalho
+            <span class="tooltip">&lt;h1&gt; - &lt;h6&gt;</span>
+        </li> <br>
+        <li>
+            Parágrafo
+            <span class="tooltip">&lt;p&gt;</span>
+        </li> <br>
+        <li>
+            Link
+            <span class="tooltip">&lt;a&gt;</span>
+        </li> <br>
+        <li>
+            Imagem
+            <span class="tooltip">&lt;img&gt;</span>
+        </li> <br>
+        <li>
+            Lista não ordenada
+            <span class="tooltip">&lt;ul&gt;</span>
+        </li> <br>
+        <li>
+            Lista ordenada
+            <span class="tooltip">&lt;ol&gt;</span>
+        </li> <br>
+        <li>
+            Item de lista
+            <span class="tooltip">&lt;li&gt;</span>
+        </li> <br>
+        <li>
+            Divisão
+            <span class="tooltip">&lt;div&gt;</span>
+        </li> <br>
+        <li>
+            Span
+            <span class="tooltip">&lt;span&gt;</span>
+        </li> <br>
+    </ul>
+
+</ol>
+</body>
+</html>
