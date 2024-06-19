@@ -14,17 +14,18 @@
 }
 
 body {
+   min-height: 100vh;
    font-family: "Bebas Neue", sans-serif;
 }
 
 
 header {
+   
     background-color: black;
     min-height: 100px;
     text-align: center;
     padding-top: 100px;
 
-    
 
  }
 
@@ -76,6 +77,8 @@ header {
     height: 105vh;
     padding: 50px;
     border-radius: 5px 5px;
+    background-attachment: fixed;
+ 
     
     
     }
@@ -90,6 +93,8 @@ header {
       height: 105vh;
       padding: 50px;
       border-radius: 5px 5px;
+      background-attachment: fixed;
+ 
       
    } 
 
